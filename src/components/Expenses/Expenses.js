@@ -1,9 +1,9 @@
 import './Expenses.css';
 import ExpenseItem from './ExpenseItem';
-import Card from './Card';
+import Card from '../UI/Card';
 
-/* It helps us to avoid DRY in css and we can use in more complex components like modals or alerts. IT is call composition*/
-function Expenses(props){
+
+const Expenses = (props) => {
 
     return (
         <Card className='expenses'>

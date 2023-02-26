@@ -1,8 +1,8 @@
 import ExpenseDate from './ExpenseDate';
 import './ExpenseItem.css';
-import Card from './Card';
+import Card from '../UI/Card';
 
-function ExpenseItem(props) {
+const ExpenseItem = (props) => {
   return (
     /* This Card sends props like the others ones the only diference was that it wasn't dynamic. In order to, take the className to use in the return div in   Card.js  */
     <Card className='expense-item'>
