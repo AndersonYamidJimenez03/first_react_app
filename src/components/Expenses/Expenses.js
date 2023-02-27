@@ -7,6 +7,7 @@ const Expenses = (props) => {
 
     return (
         <Card className='expenses'>
+          {/* this is like a function caller ExpenseItem */}
           <ExpenseItem
             title={props.items[0].title}
             amount={props.items[0].amount}
